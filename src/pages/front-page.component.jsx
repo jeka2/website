@@ -11,9 +11,15 @@ class FrontPage extends React.Component {
     render() {
         return(
             <div className="front-page">
-                <Header></Header>
-                <Footer></Footer>
+                <span className="bio">
+                    <h3>About me</h3>
+                </span>
+                <span className="photo">
+                    sd
+                </span>
             </div>
         )
     }
 }
+
+export default FrontPage;

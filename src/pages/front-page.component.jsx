@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/header/header.compontent';
+import Footer from '../components/footer/footer.component';
 
 class FrontPage extends React.Component {
     constructor(props) {
@@ -9,7 +10,10 @@ class FrontPage extends React.Component {
 
     render() {
         return(
-            <Header></Header>
+            <div className="front-page">
+                <Header></Header>
+                <Footer></Footer>
+            </div>
         )
     }
 }
